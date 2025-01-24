@@ -1,6 +1,8 @@
 # Credit Card Fraud Detection Using Deep Learning
 
-This repository contains the implementation of a **Credit Card Fraud Detection** system using deep learning techniques. The project focuses on identifying fraudulent transactions in credit card data using machine learning and deep learning models.
+The primary goal of this project is to develop a reliable system for detecting fraudulent credit card transactions using advanced machine learning and deep learning techniques. Fraudulent activities in credit card transactions are a significant challenge for financial institutions, leading to substantial financial losses. This project addresses the issue by building a binary classification model capable of distinguishing between legitimate and fraudulent transactions, leveraging a deep neural network architecture optimized for accuracy and robustness.
+
+Key aspects include preprocessing anonymized transaction data using techniques like normalization and oversampling with SMOTE to handle class imbalance. The model architecture consists of dense layers with dropout to prevent overfitting and uses binary cross-entropy as the loss function with the Adam optimizer. The system is evaluated using metrics like accuracy, precision, recall, and AUC-ROC. Implemented in Python with libraries such as TensorFlow, Pandas, and Scikit-learn, the project also employs Git LFS to manage large datasets efficiently. This solution demonstrates effective fraud detection and serves as a foundation for real-world applications.
 
 ---
 
